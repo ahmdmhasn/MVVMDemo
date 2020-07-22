@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		025D056824C8D3D100231C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D056724C8D3D100231C36 /* AppDelegate.swift */; };
-		025D056A24C8D3D100231C36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D056924C8D3D100231C36 /* SceneDelegate.swift */; };
 		025D056C24C8D3D100231C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D056B24C8D3D100231C36 /* ViewController.swift */; };
 		025D056F24C8D3D100231C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025D056D24C8D3D100231C36 /* Main.storyboard */; };
 		025D057124C8D3D300231C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025D057024C8D3D300231C36 /* Assets.xcassets */; };
 		025D057424C8D3D300231C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025D057224C8D3D300231C36 /* LaunchScreen.storyboard */; };
+		025D058124C8D4D100231C36 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D057C24C8D4D100231C36 /* Variable.swift */; };
+		025D058224C8D4D100231C36 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D057D24C8D4D100231C36 /* PublishSubject.swift */; };
+		025D058324C8D4D100231C36 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D057E24C8D4D100231C36 /* Observable.swift */; };
+		025D058424C8D4D100231C36 /* ObservationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D057F24C8D4D100231C36 /* ObservationToken.swift */; };
+		025D058524C8D4D100231C36 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D058024C8D4D100231C36 /* Observer.swift */; };
+		025D059024C8D7B000231C36 /* BookingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D058A24C8D7B000231C36 /* BookingViewModel.swift */; };
+		025D059224C8D7B000231C36 /* BookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025D058E24C8D7B000231C36 /* BookingViewController.xib */; };
+		025D059324C8D7B000231C36 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D058F24C8D7B000231C36 /* BookingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		025D056424C8D3D100231C36 /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		025D056724C8D3D100231C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		025D056924C8D3D100231C36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		025D056B24C8D3D100231C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		025D056E24C8D3D100231C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		025D057024C8D3D300231C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		025D057324C8D3D300231C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		025D057524C8D3D300231C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025D057C24C8D4D100231C36 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		025D057D24C8D4D100231C36 /* PublishSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishSubject.swift; sourceTree = "<group>"; };
+		025D057E24C8D4D100231C36 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		025D057F24C8D4D100231C36 /* ObservationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservationToken.swift; sourceTree = "<group>"; };
+		025D058024C8D4D100231C36 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		025D058A24C8D7B000231C36 /* BookingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewModel.swift; sourceTree = "<group>"; };
+		025D058E24C8D7B000231C36 /* BookingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingViewController.xib; sourceTree = "<group>"; };
+		025D058F24C8D7B000231C36 /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +70,9 @@
 		025D056624C8D3D100231C36 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				025D058824C8D7B000231C36 /* Booking */,
+				025D057B24C8D40700231C36 /* Observables */,
 				025D056724C8D3D100231C36 /* AppDelegate.swift */,
-				025D056924C8D3D100231C36 /* SceneDelegate.swift */,
 				025D056B24C8D3D100231C36 /* ViewController.swift */,
 				025D056D24C8D3D100231C36 /* Main.storyboard */,
 				025D057024C8D3D300231C36 /* Assets.xcassets */,
@@ -65,6 +80,44 @@
 				025D057524C8D3D300231C36 /* Info.plist */,
 			);
 			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		025D057B24C8D40700231C36 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				025D057E24C8D4D100231C36 /* Observable.swift */,
+				025D057F24C8D4D100231C36 /* ObservationToken.swift */,
+				025D058024C8D4D100231C36 /* Observer.swift */,
+				025D057D24C8D4D100231C36 /* PublishSubject.swift */,
+				025D057C24C8D4D100231C36 /* Variable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		025D058824C8D7B000231C36 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				025D058924C8D7B000231C36 /* ViewModel */,
+				025D058D24C8D7B000231C36 /* View */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		025D058924C8D7B000231C36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				025D058A24C8D7B000231C36 /* BookingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		025D058D24C8D7B000231C36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				025D058E24C8D7B000231C36 /* BookingViewController.xib */,
+				025D058F24C8D7B000231C36 /* BookingViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				025D057424C8D3D300231C36 /* LaunchScreen.storyboard in Resources */,
+				025D059224C8D7B000231C36 /* BookingViewController.xib in Resources */,
 				025D057124C8D3D300231C36 /* Assets.xcassets in Resources */,
 				025D056F24C8D3D100231C36 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				025D056C24C8D3D100231C36 /* ViewController.swift in Sources */,
+				025D058324C8D4D100231C36 /* Observable.swift in Sources */,
+				025D058424C8D4D100231C36 /* ObservationToken.swift in Sources */,
+				025D058124C8D4D100231C36 /* Variable.swift in Sources */,
+				025D058224C8D4D100231C36 /* PublishSubject.swift in Sources */,
+				025D058524C8D4D100231C36 /* Observer.swift in Sources */,
+				025D059024C8D7B000231C36 /* BookingViewModel.swift in Sources */,
+				025D059324C8D7B000231C36 /* BookingViewController.swift in Sources */,
 				025D056824C8D3D100231C36 /* AppDelegate.swift in Sources */,
-				025D056A24C8D3D100231C36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
